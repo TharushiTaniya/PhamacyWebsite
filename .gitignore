@@ -1,0 +1,15 @@
+# Node.js related
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build directories
+build/
+dist/
+.next/
+
+# Environment variables
+.env
+
+# Database-related
+db/

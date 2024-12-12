@@ -1,0 +1,100 @@
+/* PharmacyDashboard.css */
+
+/* Basic container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Prescription card styles */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .card .images {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Quotation card styles */
+  .quotation-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .quotation-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* List styles */
+  ul {
+    padding-left: 20px;
+    list-style: none;
+  }
+  
+  ul li {
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card, .quotation-card {
+      padding: 15px;
+    }
+  
+    .card img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+    }
+  }
+  
